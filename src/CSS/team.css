@@ -1,4 +1,4 @@
-.Jason{
+.Jason {
     position: absolute;
     width: 139px;
     height: 140px;
@@ -7,25 +7,23 @@
 
 }
 
-.Jason-text{
+.Jason-text {
     position: absolute;
     width: 140px;
     height: 63px;
     left: 161px;
     top: 1115px;
 
-    /* Website Text */
-    font-family: Work Sans;
+    font-family: Work Sans, sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
     line-height: 21px;
     letter-spacing: -0.015em;
-
     color: #000000;
 }
 
-.David{
+.David {
     position: absolute;
     width: 140px;
     height: 140px;
@@ -40,19 +38,17 @@
     left: 322px;
     top: 1115px;
 
-    /* Website Text */
-    font-family: Work Sans;
+    font-family: Work Sans, sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
     line-height: 21px;
     letter-spacing: -0.015em;
-
     color: #000000;
 }
 
 
-.Steven{
+.Steven {
     position: absolute;
     width: 141px;
     height: 140px;
@@ -60,25 +56,23 @@
     top: 967px;
 }
 
-.Steven-text{
+.Steven-text {
     position: absolute;
     width: 139px;
     height: 63px;
     left: 485px;
     top: 1115px;
 
-    /* Website Text */
-    font-family: Work Sans;
+    font-family: Work Sans, sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
     line-height: 21px;
     letter-spacing: -0.015em;
-
     color: #000000;
 }
 
-.Zoey{
+.Zoey {
     position: absolute;
     width: 140px;
     height: 140px;
@@ -93,14 +87,12 @@
     left: 646px;
     top: 1115px;
 
-    /* Website Text */
-    font-family: Work Sans;
+    font-family: Work Sans, sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
     line-height: 21px;
     letter-spacing: -0.015em;
-
     color: #000000;
 }
 
@@ -110,7 +102,7 @@
     height: 140px;
     left: 812px;
     top: 967px;
- }
+}
 
 .Dylan-text {
     position: absolute;
@@ -119,14 +111,12 @@
     left: 812px;
     top: 1115px;
 
-    /* Website Text */
-    font-family: Work Sans;
+    font-family: Work Sans, sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
     line-height: 21px;
     letter-spacing: -0.015em;
-
     color: #000000;
 }
 
@@ -145,14 +135,12 @@
     left: 972px;
     top: 1115px;
 
-    /* Website Text */
-    font-family: Work Sans;
+    font-family: Work Sans, sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
     line-height: 21px;
     letter-spacing: -0.015em;
-
     color: #000000;
 }
 
@@ -171,13 +159,11 @@
     left: 1136px;
     top: 1115px;
 
-    /* Website Text */
-    font-family: Work Sans;
+    font-family: Work Sans, sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
     line-height: 21px;
     letter-spacing: -0.015em;
-
     color: #000000;
 }

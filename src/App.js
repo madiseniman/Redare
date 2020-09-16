@@ -6,11 +6,14 @@ import email from './Assets/FooterIcons/email.svg';
 import Carousel from './carousel';
 import Team from './team';
 import TeamMap from './teamMap';
+import MailButton from './MailButton';
 import './CSS/App.css';
+import Mailto from "react-protected-mailto/dist/obfuscate";
 
 function App() {
+
     return (
-        <div className="App">
+        <div>
             <header className="App-header">
                 <img src={logo} className="App-logo" alt="logo"/>
                 <p className="Header-text">
@@ -38,15 +41,13 @@ function App() {
             <Team/>
             <TeamMap/>
             <text className="meet-us">Meet Us</text>
-            <button className="email-button">
-                <text className="email-button-text"> hello@redareapp.com</text>
-            </button>
+            <MailButton/>
             <footer className="App-footer">
                 <text className="Footer-text">© 2020, Redare AB</text>
                 <div className="Footer-icons">
-                    <img src={twitter} className="Footer-twitter" alt="twitter"/>
-                    <img src={linkedin} className="Footer-linkedin" alt="linkedin"/>
-                    <img src={email} className="Footer-email" alt="email"/>
+                    <a href="https://twitter.com/RedareTeam" target="_blank"><img src={twitter} className="Footer-twitter" alt="twitter"/></a>
+                    <a href="https://www.linkedin.com/company/redare-ab/" target="_blank"><img src={linkedin} className="Footer-linkedin" alt="linkedin"/></a>
+                    <a href="mailto:hello@redareapp.com"><img src={email} className="Footer-email" alt="email"/></a>
                 </div>
             </footer>
             </body>

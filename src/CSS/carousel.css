@@ -1,8 +1,7 @@
 .carousel {
-    padding-top: 30px;
-    padding-bottom: 30px;
+    position:absolute;
+    top: 555px;
     width: 1440px;
-    background: #E5E5E5;
 }
 .keyDiff {
     width: 101px;
@@ -16,7 +15,7 @@
     left: 84px;
     top: 558px;
 }
-.productReccomend {
+.productRecommend {
     width: 117px;
     height: 95px;
     left: 263px;

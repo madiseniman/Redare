@@ -14,7 +14,7 @@ import './CSS/App.css';
 
 function App() {
   return (
-    <div>
+    <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p className="Header-text">
@@ -23,11 +23,10 @@ function App() {
           their consumers towards making more sustainable choices.
         </p>
       </header>
-        <body className="App-body">
-
+        <body>
         <Carousel/>
 
-        <div className="Body-text-div">
+        <div>
             <p className="Body-header">Redare’s founders are passionate that products valued and purchased by consumers and <br/>
             retailers for being “sustainable” should make differences at scale to people and planet.</p>
             <p className="Body-text">Given the importance of demand-side intervention, Redare has a long-term vision for using core sustainability data and its ranking
@@ -39,7 +38,7 @@ function App() {
         <Team/>
         <TeamMap/>
         <text className="meet-us">Meet Us</text>
-        <button className="email-button">hello@redareapp.com</button>
+        <button className="email-button"><text className="email-button-text"> hello@redareapp.com</text></button>
 
         <footer className="App-footer">
 

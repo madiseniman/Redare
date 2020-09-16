@@ -1,5 +1,5 @@
 .App {
-  background-color: #E5E5E5;
+  background: #E5E5E5;
 }
 
 .App-logo {
@@ -12,15 +12,13 @@
 }
 
 .App-header {
-
+  position:absolute;
   width: 1440px;
   height: 521px;
-
   /* Redare Navy */
   background: #003366;
-
-  display: flex;
-  flex-direction: column;
+/*  display: flex;
+  flex-direction: column;*/
   /*align-items: center;
 
   justify-content: center;
@@ -51,31 +49,24 @@
   color: #FFFFFF;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  /*.App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }*/
-}
+
 
 .Body-text-div {
-  /*flex: content;
-  flex-direction: column;*/
   background: #E5E5E5;
   width: 1440px;
 }
 
 .App-body{
-  background-color: #E5E5E5;
+  background: #E5E5E5;
   width: 1440px;
 }
 
 .Body-header {
+  position: absolute;
   width: 1127px;
   height: 210px;
   left: 161px;
   top: 681px;
-  margin: 0%;
-  padding: 26px;
 
 
   /* Website Text */
@@ -88,15 +79,17 @@
 
   /* Gray 1 */
   color: #333333;
-  background: #E5E5E5;
+  /*
+  background-color: #E5E5E5;
+  */
 }
 
 .Body-text {
+  position: absolute;
   width: 1127px;
   height: 210px;
   left: 161px;
   top: 781px;
-  position: center;
 
   /* Website Text */
   font-family: Work Sans;
@@ -108,30 +101,26 @@
 
   /* Gray 1 */
   color: #333333;
+  /*
   background: #E5E5E5;
+  */
 }
 .App-footer {
-
   position: absolute;
-
   width: 1440px;
   height: 125px;
   left: 0px;
   top: 1636px;
-
-
   /* Redare Navy */
   background-color: #003366;
 }
 
 .Footer-text {
-
   position: absolute;
-
   width: 161px;
   height: 21px;
   left: 161px;
-  top: 1688px;
+  top: 55px;
 
   /* Website Text */
   font-family: Work Sans;
@@ -151,13 +140,11 @@
 
 .Footer-twitter {
   /* TwitterCyan 1 */
-
   position: absolute;
-
   width: 49px;
   height: 49px;
   left: 1066px;
-  top: 1671px;
+  top: 40px;
 
 }
 
@@ -165,11 +152,10 @@
   /* LinkedinCyan 1 */
 
   position: absolute;
-
   width: 50px;
   height: 49px;
   left: 1146px;
-  top: 1671px;
+  top: 40px;
 }
 
 .Footer-email {
@@ -180,13 +166,15 @@
   width: 49px;
   height: 49px;
   left: 1227px;
-  top: 1671px;
+  top: 40px;
 
 }
 
 .meet-us {
+
   position: absolute;
-  width: 100px;
+
+  width: 150px;
   height: 30px;
   left: 195px;
   top: 1422px;
@@ -207,7 +195,7 @@
   width: 348px;
   height: 69px;
   left: 161px;
-  top: 1462px;
+  top: 1482px;
 
   /* Redare Navy */
   background: #003366;
@@ -216,6 +204,15 @@
 
 .email-button-text {
 
+  font-family: Work Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 27px;
+  line-height: 32px;
+  letter-spacing: -0.015em;
+
+  /* White */
+  color: #FFFFFF;
 }
 
 /*@keyframes App-logo-spin {

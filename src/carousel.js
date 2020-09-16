@@ -48,7 +48,7 @@ export default () => (
               customTransition=" 5000ms linear" className="carousel">
         <div><img src={keyDiff} className="keyDiff" alt="keyDiff"/></div>
         <div><img src={experts} className="experts" alt="experts"/></div>
-        <div><img src={productReccomend} className="productReccomend" alt="productReccomend"/></div>
+        <div><img src={productReccomend} className="productRecommend" alt="productReccomend"/></div>
         <div><img src={productInfoAlert} className="productInfoAlert" alt="productInfoAlert"/></div>
         <div><img src={product} className="product" alt="product"/></div>
         <div><img src={greenwashing} className="greenwashing" alt="greenwashing"/></div>

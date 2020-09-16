@@ -1,0 +1,47 @@
+.TeamMapDiv {
+padding-top: 500px;
+}
+.Map {
+    position: absolute;
+    width: 626px;
+    height: 311px;
+    left: 682px;
+    top: 1268px;
+}
+.SwedenLines {
+
+    /* Sweden Line */
+
+    position: absolute;
+    width: 787px;
+    height: 241.86px;
+    left: 246px;
+    top: 1199px;
+
+    /* Redare Deep Cyan */
+    /*
+    border: 2px solid #00E2E5;
+    */
+    /*
+    box-shadow: 0px 1px 0px #FFFFFF;
+    */
+}
+
+.NonSwedenLines {
+    /* Non-Sweden Line */
+
+    position: absolute;
+    width: 647.94px;
+    height: 374.36px;
+    left: 568px;
+    top: 1175px;
+
+    /* Redare Deep Cyan */
+    /*
+    border: 2px solid #00E2E5;
+    */
+    /*
+    box-shadow: -2px 2px 0px #FFFFFF;
+    */
+}
+

@@ -1,5 +1,5 @@
 .App {
-  background: #003366;
+  background-color: #E5E5E5;
 }
 
 .App-logo {
@@ -12,12 +12,9 @@
 }
 
 .App-header {
-  /*
-  background-color: #282c34;
-  */
+
   width: 1440px;
   height: 521px;
-  top: 0px;
 
   /* Redare Navy */
   background: #003366;
@@ -29,11 +26,13 @@
   justify-content: center;
   */
   font-size: calc(10px + 2vmin);
+  /*
   color: white;
+  */
 
 }
 
-.App-desc {
+.Header-text {
   position: absolute;
   width: 636px;
   height: 171px;
@@ -58,14 +57,63 @@
   }*/
 }
 
-
-
-.App-body{
-background: #E5E5E5;
+.Body-text-div {
+  /*flex: content;
+  flex-direction: column;*/
+  background: #E5E5E5;
+  width: 1440px;
 }
 
+.App-body{
+  background-color: #E5E5E5;
+  width: 1440px;
+}
+
+.Body-header {
+  width: 1127px;
+  height: 210px;
+  left: 161px;
+  top: 681px;
+  margin: 0%;
+  padding: 26px;
+
+
+  /* Website Text */
+  font-family: Work Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 26px;
+  line-height: 30px;
+  letter-spacing: -0.015em;
+
+  /* Gray 1 */
+  color: #333333;
+  background: #E5E5E5;
+}
+
+.Body-text {
+  width: 1127px;
+  height: 210px;
+  left: 161px;
+  top: 781px;
+  position: center;
+
+  /* Website Text */
+  font-family: Work Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 25px;
+  letter-spacing: -0.05em;
+
+  /* Gray 1 */
+  color: #333333;
+  background: #E5E5E5;
+}
 .App-footer {
+
   position: absolute;
+
   width: 1440px;
   height: 125px;
   left: 0px;
@@ -75,8 +123,11 @@ background: #E5E5E5;
   /* Redare Navy */
   background-color: #003366;
 }
+
 .Footer-text {
+
   position: absolute;
+
   width: 161px;
   height: 21px;
   left: 161px;
@@ -97,30 +148,73 @@ background: #E5E5E5;
   flex-direction: row;
   flex-align: end;
 }*/
+
 .Footer-twitter {
   /* TwitterCyan 1 */
+
   position: absolute;
+
   width: 49px;
   height: 49px;
   left: 1066px;
   top: 1671px;
 
 }
+
 .Footer-linkedin {
   /* LinkedinCyan 1 */
+
   position: absolute;
+
   width: 50px;
   height: 49px;
   left: 1146px;
   top: 1671px;
 }
+
 .Footer-email {
   /* eMailCyan 1 */
+
   position: absolute;
+
   width: 49px;
   height: 49px;
   left: 1227px;
   top: 1671px;
+
+}
+
+.meet-us {
+  position: absolute;
+  width: 100px;
+  height: 30px;
+  left: 195px;
+  top: 1422px;
+
+  font-family: Work Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 26px;
+  line-height: 30px;
+  letter-spacing: -0.015em;
+
+  /* Redare Navy */
+  color: #003366;
+}
+
+.email-button {
+  position: absolute;
+  width: 348px;
+  height: 69px;
+  left: 161px;
+  top: 1462px;
+
+  /* Redare Navy */
+  background: #003366;
+  border-radius: 40px;
+}
+
+.email-button-text {
 
 }
 

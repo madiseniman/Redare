@@ -1,48 +1,15 @@
 import React from 'react';
-import keyDiff from './Assets/keyDiff.svg';
-import experts from './Assets/experts.svg';
-import productReccomend from './Assets/productReccomend.svg';
-import productInfoAlert from './Assets/productInfoAlert.svg';
-import product from './Assets/product.svg';
-import greenwashing from './Assets/greenwashing.svg';
-import expertGlass from './Assets/expertGlass.svg';
-import productRanking from './Assets/productRanking.svg';
-import externalData from './Assets/externalData.svg';
-import calibrationWeight from './Assets/calibrationWeight.svg';
-import keyDiff2 from './Assets/keyDiff2.svg';
-import redBottle from './Assets/redBottle.svg';
-import userData from './Assets/userData.svg';
-import bananas from './Assets/bananas.svg'
-import logo from './Assets/logo.svg';
-import twitter from './Assets/twitter.svg';
-import linkedin from './Assets/linkedin.svg';
-import email from './Assets/email.svg';
-import Carousel from 'react-multi-carousel';
-import "react-multi-carousel/lib/styles.css";
 import ReactPlayer from "react-player";
-import './App.css';
+import logo from './Assets/logo.svg';
+import twitter from './Assets/FooterIcons/twitter.svg';
+import linkedin from './Assets/FooterIcons/linkedin.svg';
+import email from './Assets/FooterIcons/email.svg';
+import Carousel from './carousel';
+import Team from './team';
+import TeamMap from './teamMap';
+import './CSS/App.css';
 //make the carosel its own component and set autoplay to true
-//make map it's own componen as well. 
-
-const responsive = {
-    superLargeDesktop: {
-        // the naming can be any, depends on you.
-        breakpoint: { max: 4000, min: 3000 },
-        items: 9
-    },
-    desktop: {
-        breakpoint: { max: 3000, min: 1024 },
-        items: 6
-    },
-    tablet: {
-        breakpoint: { max: 1024, min: 464 },
-        items: 4
-    },
-    mobile: {
-        breakpoint: { max: 464, min: 0 },
-        items: 3
-    }
-};
+//make map it's own componen as well.
 
 
 function App() {
@@ -50,46 +17,30 @@ function App() {
     <div>
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <p className="App-desc">
+        <p className="Header-text">
           Using human experts, product data, and AI, our <br/>
           tech enables retailers to empower and guide <br/>
           their consumers towards making more sustainable choices.
         </p>
       </header>
         <body className="App-body">
-        {/* eslint-disable-next-line react/jsx-no-comment-textnodes */}
-        <div>
-            <Carousel responsive={responsive}>
-                <div><img src={keyDiff} alt="keyDiff"/></div>
-                <div><img src={experts} alt="experts"/></div>
-                <div><img src={productReccomend} alt="productReccomend"/></div>
-                <div><img src={productInfoAlert} alt="productInfoAlert"/></div>
-                <div><img src={product} alt="product"/></div>
-                <div><img src={greenwashing} alt="greenwashing"/></div>
-                <div><img src={expertGlass} alt="expertGlass"/></div>
-                <div><img src={productRanking} alt="productRanking"/></div>
-                <div><img src={externalData} alt="externalData"/></div>
-                <div><img src={calibrationWeight} alt="calibrationWeight"/></div>
-                <div><img src={keyDiff2} alt="keyDiff2"/></div>
-                <div><img src={redBottle} alt="redBottle"/></div>
-                <div><img src={userData} alt="userData"/></div>
-                <div><img src={bananas} alt="bananas"/></div>
-            </Carousel>;
+
+        <Carousel/>
+
+        <div className="Body-text-div">
+            <p className="Body-header">Redare’s founders are passionate that products valued and purchased by consumers and <br/>
+            retailers for being “sustainable” should make differences at scale to people and planet.</p>
+            <p className="Body-text">Given the importance of demand-side intervention, Redare has a long-term vision for using core sustainability data and its ranking
+            engine, as well as gamification, consumer psychology and food informatics. Integrating Redare with online retail environments
+            offers opportunities for tracking individual customers, rewards for footprint reduction, gamification of customer nudging, and
+            education. We envision a possibilities to create engagement with consumers through retailers and directly with the Redare app
+                    once core trust and relationships are built.</p>
         </div>
-        <div>
-            <p>stuff</p>
-            <p>more stuff</p>
-        </div>
-            <div>
-                <ReactPlayer
-                    //change video link
-                    url="https://www.youtube.com/watch?v=ug50zmP9I7s"/>
-            </div>
-        {/* eslint-disable-next-line react/jsx-no-comment-textnodes */}
-        <div>
-            //team with map and lines
-        </div>
-        </body>
+        <Team/>
+        <TeamMap/>
+        <text className="meet-us">Meet Us</text>
+        <button className="email-button">hello@redareapp.com</button>
+
         <footer className="App-footer">
 
             <text className="Footer-text">© 2020, Redare AB </text>
@@ -100,6 +51,7 @@ function App() {
             <img src={email} className="Footer-email" alt="email"/>
             </div>
         </footer>
+        </body>
     </div>
 
   );

@@ -23,6 +23,7 @@
     height: 95px;
     left: 263px;
     top: 555px;
+    padding-left: 30px;
 }
 
 .productInfoAlert {
@@ -30,6 +31,8 @@
     height: 95px;
     left: 396px;
     top: 555px;
+    padding-left: 30px;
+
 }
 
 .product {
@@ -37,6 +40,7 @@
     height: 94px;
     left: 502px;
     top: 556px;
+    padding-left: 25px;
 }
 
 .greenwashing {
@@ -47,6 +51,7 @@
 }
 
 .expertGlass {
+    padding-left: 50px;
     width: 94px;
     height: 92px;
     left: 777px;
@@ -58,6 +63,7 @@
     height: 95px;
     left: 885px;
     top: 555px;
+    padding-left: 30px;
 }
 
 .externalData {
@@ -72,6 +78,7 @@
     height: 94px;
     left: 1090px;
     top: 556px;
+    padding-left: 30px;
 }
 
 .keyDiff2 {
@@ -86,6 +93,7 @@
     height: 94px;
     left: 1302px;
     top: 556px;
+    padding-left: 30px;
 }
 
 .userData {

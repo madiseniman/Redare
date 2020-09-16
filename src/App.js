@@ -13,7 +13,7 @@ import Mailto from "react-protected-mailto/dist/obfuscate";
 function App() {
 
     return (
-        <div>
+        <div className="App">
             <header className="App-header">
                 <img src={logo} className="App-logo" alt="logo"/>
                 <p className="Header-text">
@@ -22,20 +22,20 @@ function App() {
                     their consumers towards making more sustainable choices.
                 </p>
             </header>
-            <body>
+            <body className="App-body">
             <Carousel/>
             <div>
                 <p className="Body-header">Redare’s founders are passionate that products valued and purchased by
                     consumers and <br/>
                     retailers for being “sustainable” should make differences at scale to people and planet.</p>
                 <p className="Body-text">Given the importance of demand-side intervention, Redare has a long-term vision
-                    for using core sustainability data and its ranking
+                    for using core sustainability data and its ranking <br/>
                     engine, as well as gamification, consumer psychology and food informatics. Integrating Redare with
-                    online retail environments
+                    online retail environments <br/>
                     offers opportunities for tracking individual customers, rewards for footprint reduction,
-                    gamification of customer nudging, and
+                    gamification of customer nudging, and <br/>
                     education. We envision a possibilities to create engagement with consumers through retailers and
-                    directly with the Redare app
+                    directly with the Redare app <br/>
                     once core trust and relationships are built.</p>
             </div>
             <Team/>

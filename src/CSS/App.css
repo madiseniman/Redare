@@ -1,17 +1,20 @@
-.App {
+#root{
+    zoom:92.5%;
+}
+.app {
     width: 1440px;
 }
 
-.App-logo {
+.app-logo {
     position: absolute;
-    width: 275px;
-    height: 72px;
-    left: 170px;
-    top: 158px;
+    width: 568px;
+    height: 149px;
+    left: 702px;
+    top: 131px;
     pointer-events: none;
 }
 
-.App-header {
+.app-header {
     position: absolute;
     width: inherit;
     height: 521px;
@@ -19,29 +22,45 @@
     font-size: calc(10px + 2vmin);
 }
 
-.Header-text {
+.tag-line {
     position: absolute;
-    width: 100vw;
-    height: 171px;
+    width: 490px;
+    height: 270px;
     left: 170px;
-    top: 258px;
-    text-align: left;
+    top: 125px;
 
-    font-family: 'Work Sans', sans-serif;
+    font-family: Work Sans, serif;
     font-style: normal;
     font-weight: normal;
-    font-size: 27px;
-    line-height: 32px;
+    font-size: 64px;
+    line-height: 107.7%;
+    /*line-height: 69px; */
     letter-spacing: -0.015em;
     color: #FFFFFF;
 }
 
-.App-body {
+.header-body {
+    position: absolute;
+    width: 586px;
+    height: 82px;
+    left: 702px;
+    top: 315px;
+
+    font-family: Work Sans, serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 26px;
+    letter-spacing: -0.015em;
+    color: #FFFFFF;
+}
+
+.app-body {
     background: #E5E5E5;
     width: inherit;
 }
 
-.Body-header {
+.body-header {
     position: absolute;
     width: 1127px;
     height: 210px;
@@ -57,7 +76,7 @@
     color: #333333;
 }
 
-.Body-text {
+.body-text {
     position: absolute;
     width: 1127px;
     height: 210px;
@@ -73,16 +92,16 @@
     color: #333333;
 }
 
-.App-footer {
+.app-footer {
     position: absolute;
     width: inherit;
     height: 125px;
     left: 0px;
-    top: 1636px;
+    top: 2076px;
     background-color: #003366;
 }
 
-.Footer-text {
+.footer-text {
     position: absolute;
     width: 161px;
     height: 21px;
@@ -98,7 +117,7 @@
     color: #00FFFF;
 }
 
-.Footer-twitter {
+.footer-twitter {
     position: absolute;
     width: 49px;
     height: 49px;
@@ -106,7 +125,7 @@
     top: 40px;
 }
 
-.Footer-linkedin {
+.footer-linkedin {
     position: absolute;
     width: 50px;
     height: 49px;
@@ -114,7 +133,7 @@
     top: 40px;
 }
 
-.Footer-email {
+.footer-email {
     position: absolute;
     width: 49px;
     height: 49px;
@@ -124,12 +143,12 @@
 
 .meet-us {
     position: absolute;
-    width: 150px;
+    width: 1500px;
     height: 30px;
     left: 195px;
-    top: 1442px;
+    top: 1862px;
 
-    font-family: Work Sans, sans-serif;
+    font-family: Work Sans, serif;
     font-style: normal;
     font-weight: normal;
     font-size: 26px;
@@ -143,7 +162,7 @@
     width: 348px;
     height: 69px;
     left: 161px;
-    top: 1482px;
+    top: 1902px;
     background: #003366;
     border-radius: 40px;
 }

@@ -1,7 +1,7 @@
 .Jason {
     position: absolute;
-    width: 139px;
-    height: 140px;
+    width: 248px;
+    height: 250px;
     left: 161px;
     top: 967px;
 
@@ -9,12 +9,12 @@
 
 .Jason-text {
     position: absolute;
-    width: 140px;
-    height: 63px;
+    width: 143px;
+    height: 42px;
     left: 161px;
-    top: 1115px;
+    top: 1231px;
 
-    font-family: Work Sans, sans-serif;
+    font-family: Work Sans, serif;
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
@@ -25,20 +25,20 @@
 
 .David {
     position: absolute;
-    width: 140px;
-    height: 140px;
-    left: 322px;
+    width: 250px;
+    height: 250px;
+    left: 444px;
     top: 967px;
 }
 
 .David-text {
     position: absolute;
-    width: 127px;
-    height: 84px;
-    left: 322px;
-    top: 1115px;
+    width: 250px;
+    height: 63px;
+    left: 448px;
+    top: 1231px;
 
-    font-family: Work Sans, sans-serif;
+    font-family: Work Sans, serif;
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
@@ -50,20 +50,20 @@
 
 .Steven {
     position: absolute;
-    width: 141px;
-    height: 140px;
-    left: 485px;
+    width: 252px;
+    height: 250px;
+    left: 737px;
     top: 967px;
 }
 
 .Steven-text {
     position: absolute;
-    width: 139px;
-    height: 63px;
-    left: 485px;
-    top: 1115px;
+    width: 198px;
+    height: 42px;
+    left: 737px;
+    top: 1231px;
 
-    font-family: Work Sans, sans-serif;
+    font-family: Work Sans, serif;
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
@@ -74,20 +74,20 @@
 
 .Zoey {
     position: absolute;
-    width: 140px;
-    height: 140px;
-    left: 646px;
+    width: 250px;
+    height: 250px;
+    left: 1028px;
     top: 967px;
 }
 
 .Zoey-text {
     position: absolute;
-    width: 126px;
-    height: 63px;
-    left: 646px;
-    top: 1115px;
+    width: 187px;
+    height: 42px;
+    left: 1028px;
+    top: 1231px;
 
-    font-family: Work Sans, sans-serif;
+    font-family: Work Sans, serif;
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
@@ -98,44 +98,20 @@
 
 .Dylan {
     position: absolute;
-    width: 139px;
-    height: 140px;
-    left: 812px;
-    top: 967px;
+    width: 248px;
+    height: 250px;
+    left: 161px;
+    top: 1318px;
 }
 
 .Dylan-text {
     position: absolute;
-    width: 112px;
-    height: 63px;
-    left: 812px;
-    top: 1115px;
+    width: 162px;
+    height: 42px;
+    left: 161px;
+    top: 1582px;
 
-    font-family: Work Sans, sans-serif;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 18px;
-    line-height: 21px;
-    letter-spacing: -0.015em;
-    color: #000000;
-}
-
-.Madisen {
-    position: absolute;
-    width: 140px;
-    height: 140px;
-    left: 974px;
-    top: 967px;
-}
-
-.Madisen-text {
-    position: absolute;
-    width: 83px;
-    height: 63px;
-    left: 972px;
-    top: 1115px;
-
-    font-family: Work Sans, sans-serif;
+    font-family: Work Sans, serif;
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
@@ -146,20 +122,69 @@
 
 .Danielle {
     position: absolute;
-    width: 140px;
-    height: 140px;
-    left: 1136px;
-    top: 967px;
+    width: 250px;
+    height: 250px;
+    left: 448px;
+    top: 1318px;
 }
 
 .Danielle-text {
     position: absolute;
     width: 140px;
     height: 42px;
-    left: 1136px;
-    top: 1115px;
+    left: 448px;
+    top: 1582px;
 
-    font-family: Work Sans, sans-serif;
+    font-family: Work Sans, serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: -0.015em;
+    color: #000000;
+}
+
+
+.Madisen {
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    left: 738px;
+    top: 1318px;
+}
+
+.Madisen-text {
+    position: absolute;
+    width: 154px;
+    height: 42px;
+    left: 738px;
+    top: 1582px;
+
+    font-family: Work Sans serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: -0.015em;
+    color: #000000;
+}
+
+.Omar {
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    left: 1028px;
+    top: 1318px;
+}
+
+.Omar-text {
+    position: absolute;
+    width: 249px;
+    height: 38px;
+    left: 1028px;
+    top: 1582px;
+
+    font-family: Work Sans, serif;
     font-style: normal;
     font-weight: normal;
     font-size: 18px;

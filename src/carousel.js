@@ -12,7 +12,6 @@ import calibrationWeight from './Assets/Carousel/calibrationWeight.svg';
 import keyDiff2 from './Assets/Carousel/keyDiff2.svg';
 import redBottle from './Assets/Carousel/redBottle.svg';
 import userData from './Assets/Carousel/userData.svg';
-import bananas from './Assets/Carousel/bananas.svg'
 import './CSS/carousel.css';
 
 import Carousel from 'react-multi-carousel';
@@ -59,6 +58,5 @@ export default () => (
         <div><img src={keyDiff2} className="keyDiff2" alt="keyDiff2"/></div>
         <div><img src={redBottle} className="redBottle" alt="redBottle"/></div>
         <div><img src={userData} className="userData" alt="userData"/></div>
-        <div><img src={bananas} className="bananas" alt="bananas"/></div>
     </Carousel>
 );

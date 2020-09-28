@@ -41,7 +41,7 @@ function App() {
             </div>
             <Team/>
             <TeamMap/>
-            <text className="sign-up-text">Make an impact! <br/> What supermarkets need Redare?</text>
+            <text className="sign-up-text">Stay updated with our progress here:</text>
             <SignUpButton/>
             <text className="meet-us">Meet Us</text>
             <MailButton/>

@@ -12,7 +12,7 @@ import Omar from "../Assets/Team/Omar.svg";
 
 export default () => (
     <team>
-        <img src={Jason} className="Jason" alt="Jason" data-tip data-for="JasonTooltip"/>
+        <img src={Jason} className="image" id="jason-image" alt="Jason" data-tip data-for="JasonTooltip"/>
             <ReactTooltip id="JasonTooltip" place="top" effect="solid">
                     Jason has significant leadership/management experience <br/>
                     with expertise in environmental policy , ecolabels, <br/>
@@ -23,9 +23,9 @@ export default () => (
                     Valuation Initiative (www .foodsivi.org). From Milwaukee/NYC;<br/>
                     living in Stockholm. In charge of team dinner reservations.
             </ReactTooltip>
-            <p className="Jason-text"><b>Jason Czarnezki</b> <br/> Co-founder | Chief Executive <br/>Officer </p>
+            <p className="text" id="jason-text"><b>Jason Czarnezki</b> <br/> Co-founder | Chief Executive <br/>Officer </p>
 
-        <img src={David} className="David" alt="David" data-tip data-for="DavidTooltip"/>
+        <img src={David} className="image" id="david-image" alt="David" data-tip data-for="DavidTooltip"/>
             <ReactTooltip id="DavidTooltip" place="top" effect="solid">
                     David is an experienced data and analytics <br/>
                     professional with experience in establishing tech teams <br/>
@@ -34,9 +34,9 @@ export default () => (
                     previously worked in NYC; enjoys racquet sports and Mexican food/culture.
 
             </ReactTooltip>
-        <p className="David-text"><b>David Huselius</b> <br/> Co-founder | Chief Product <br/> Officer </p>
+        <p className="text" id="david-text"><b>David Huselius</b> <br/> Co-founder | Chief Product <br/> Officer </p>
 
-        <img src={Steven} className="Steven" alt="Steven" data-tip data-for="StevenTooltip"/>
+        <img src={Steven} className="image" id="steven-image" alt="Steven" data-tip data-for="StevenTooltip"/>
             <ReactTooltip id="StevenTooltip" place="top" effect="solid">
                     Steven is an author of graduate mathematics texts, has <br/>
                     developed algorithms used in national security applications. <br/>
@@ -44,18 +44,18 @@ export default () => (
                     University of Oxford. Co-founded and leads FoodSIVI. Australian; <br/>
                     poet; takes quality of food and drink seriously.
             </ReactTooltip>
-        <p className="Steven-text"><b> Steven Lord </b><br/> Chief Technology Officer </p>
+        <p className="text" id="steven-text"><b> Steven Lord </b><br/> Chief Technology Officer </p>
 
-        <img src={Zoey} className="Zoey" alt="Zoey" data-tip data-for="ZoeyTooltip"/>
+        <img src={Zoey} className="image" id="zoey-image" alt="Zoey" data-tip data-for="ZoeyTooltip"/>
             <ReactTooltip id="ZoeyTooltip" place="top" effect="solid">
                     Zoey currently heads marketing/communications department at <br/>
                     Above, a creative innovation agency. Greek born, American raised. <br/>
                     Lived in the Netherlands, now Stockholm. <br/>
 
             </ReactTooltip>
-        <p className="Zoey-text"><b> Zoey Tsopela </b><br/> Chief Marketing Officer</p>
+        <p className="text" id="zoey-text"><b> Zoey Tsopela </b><br/> Chief Marketing Officer</p>
 
-        <img src={Dylan} className="Dylan" alt="Dylan" data-tip data-for="DylanTooltip"/>
+        <img src={Dylan} className="image" id="dylan-image" alt="Dylan" data-tip data-for="DylanTooltip"/>
             <ReactTooltip id="DylanTooltip" place="top" effect="solid">
                     Dylan is a multidisciplinary artist experienced in studio and <br/>
                     digital arts, print and motion, typefaces to portraiture. <br/>
@@ -63,9 +63,9 @@ export default () => (
                     genes and accordion from Irish & Italian grandfathers.
 
             </ReactTooltip>
-        <p className="Dylan-text"><b>Dylan Clancy </b><br/>Chief Design Officer</p>
+        <p className="text" id="dylan-text"><b>Dylan Clancy </b><br/>Chief Design Officer</p>
 
-        <img src={Danielle} className="Danielle" alt="Danielle" data-tip data-for="DanielleTooltip"/>
+        <img src={Danielle} className="image" id="danielle-image" alt="Danielle" data-tip data-for="DanielleTooltip"/>
             <ReactTooltip id="DanielleTooltip" place="top" effect="solid">
                     Danielle is a Software Developer, has experience in full <br/>
                     life-cycle systems engineering, research and development, <br/>
@@ -74,9 +74,9 @@ export default () => (
                     lived in Gothenburg; enjoys testing the limits of friends' <br/>
                     willingness to try her cooking.
             </ReactTooltip>
-        <p className="Danielle-text"><b>Danielle Chaung </b><br/>Developer</p>
+        <p className="text" id="danielle-text"><b>Danielle Chaung </b><br/>Developer</p>
 
-        <img src={Madisen} className="Madisen" alt="Madisen" data-tip data-for="MadisenTooltip"/>
+        <img src={Madisen} className="image" id="madisen-image" alt="Madisen" data-tip data-for="MadisenTooltip"/>
             <ReactTooltip id="MadisenTooltip" place="top" effect="solid">
                     Madisen is a Software Developer and former health and wellness <br/>
                     entrepreneur, has experience with app and web development. <br/>
@@ -84,9 +84,9 @@ export default () => (
                     rock-climber.
 
             </ReactTooltip>
-        <p className="Madisen-text"><b>Madisen Whitfield</b><br/> Developer</p>
+        <p className="text" id="madisen-text"><b>Madisen Whitfield</b><br/> Developer</p>
 
-        <img src={Omar} className="Omar" alt="Omar" data-tip data-for="OmarTooltip"/>
+        <img src={Omar} className="image" id="omar-image" alt="Omar" data-tip data-for="OmarTooltip"/>
             <ReactTooltip id="OmarTooltip" place="top" effect="solid">
                     Omar is an Environmental Engineer from Mexico, has expertise in <br/>
                     energy systems, biotechnology, air pollution, water treatment and<br/>
@@ -97,6 +97,6 @@ export default () => (
                     career in environmental science. Passionate about traveling, discovering<br/>
                     new cultures, and enjoying nature's splendour.
             </ReactTooltip>
-            <p className="Omar-text"><b>Omar Corona Gonzales </b><br/>Environmental Engineer </p>
+            <p className="text" id="omar-text"><b>Omar Corona Gonzales </b><br/>Environmental Engineer </p>
     </team>
 );

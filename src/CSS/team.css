@@ -1,193 +1,102 @@
-.Jason {
-    position: absolute;
-    width: 248px;
-    height: 250px;
-    left: 161px;
-    top: 967px;
-}
-
-.Jason-text {
+.image {
     position: absolute;
     width: 250px;
-    height: 40px;
-    left: 161px;
-    top: 1231px;
+    height: 250px;
+}
 
+.text{
+    position: absolute;
+    width: 249px;
+    height: 38px;
     font-family: Work Sans, serif;
     font-style: normal;
     font-weight: normal;
-    font-size: 17px;
+    font-size: 18px;
     line-height: 21px;
     letter-spacing: -0.015em;
     color: #000000;
 }
 
-.David {
-    position: absolute;
-    width: 250px;
-    height: 250px;
+#jason-image{
+    left: 161px;
+    top: 967px;
+}
+
+#jason-text {
+    left: 161px;
+    top: 1231px;
+}
+
+#david-image {
     left: 444px;
     top: 967px;
 }
 
-.David-text {
-    position: absolute;
-    width: 250px;
-    height: 63px;
+#david-text {
     left: 448px;
     top: 1231px;
-
-    font-family: Work Sans, serif;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 17px;
-    line-height: 21px;
-    letter-spacing: -0.015em;
-    color: #000000;
 }
 
 
-.Steven {
-    position: absolute;
-    width: 252px;
-    height: 250px;
+#steven-image {
     left: 737px;
     top: 967px;
 }
 
-.Steven-text {
-    position: absolute;
-    width: 198px;
-    height: 42px;
+#steven-text {
     left: 737px;
     top: 1231px;
-
-    font-family: Work Sans, serif;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 17px;
-    line-height: 21px;
-    letter-spacing: -0.015em;
-    color: #000000;
 }
 
-.Zoey {
-    position: absolute;
-    width: 250px;
-    height: 250px;
+#zoey-image {
     left: 1028px;
     top: 967px;
 }
 
-.Zoey-text {
-    position: absolute;
-    width: 250px;
-    height: 42px;
+#zoey-text {
     left: 1028px;
     top: 1231px;
-
-    font-family: Work Sans, serif;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 17px;
-    line-height: 21px;
-    letter-spacing: -0.015em;
-    color: #000000;
 }
 
-.Dylan {
-    position: absolute;
-    width: 248px;
-    height: 250px;
+#dylan-image {
     left: 161px;
     top: 1318px;
 }
 
-.Dylan-text {
-    position: absolute;
-    width: 250px;
-    height: 42px;
+#dylan-text {
     left: 161px;
     top: 1582px;
-
-    font-family: Work Sans, serif;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 17px;
-    line-height: 21px;
-    letter-spacing: -0.015em;
-    color: #000000;
 }
 
-.Danielle {
-    position: absolute;
-    width: 250px;
-    height: 250px;
+#danielle-image {
     left: 448px;
     top: 1318px;
 }
 
-.Danielle-text {
-    position: absolute;
-    width: 250px;
-    height: 42px;
+#danielle-text {
     left: 448px;
     top: 1582px;
-
-    font-family: Work Sans, serif;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 17px;
-    line-height: 21px;
-    letter-spacing: -0.015em;
-    color: #000000;
 }
 
 
-.Madisen {
-    position: absolute;
-    width: 250px;
-    height: 250px;
+#madisen-image {
     left: 738px;
     top: 1318px;
 }
 
-.Madisen-text {
-    position: absolute;
-    width: 250px;
-    height: 42px;
+#madisen-text {
     left: 738px;
     top: 1582px;
-
-    font-family: Work Sans, serif;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 17px;
-    line-height: 21px;
-    letter-spacing: -0.015em;
-    color: #000000;
 }
 
-.Omar {
-    position: absolute;
-    width: 250px;
-    height: 250px;
+#omar-image {
     left: 1028px;
     top: 1318px;
 }
 
-.Omar-text {
-    position: absolute;
-    width: 249px;
-    height: 38px;
+#omar-text {
     left: 1028px;
     top: 1582px;
-
-    font-family: Work Sans, serif;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 17px;
-    line-height: 21px;
-    letter-spacing: -0.015em;
-    color: #000000;
 }
+
+

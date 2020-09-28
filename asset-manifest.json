@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/Redare/static/css/main.b7a78835.chunk.css",
-    "main.js": "/Redare/static/js/main.5d114981.chunk.js",
-    "main.js.map": "/Redare/static/js/main.5d114981.chunk.js.map",
+    "main.css": "/Redare/static/css/main.f7dd9909.chunk.css",
+    "main.js": "/Redare/static/js/main.5eaf116c.chunk.js",
+    "main.js.map": "/Redare/static/js/main.5eaf116c.chunk.js.map",
     "runtime-main.js": "/Redare/static/js/runtime-main.20195903.js",
     "runtime-main.js.map": "/Redare/static/js/runtime-main.20195903.js.map",
-    "static/css/2.2305eb8f.chunk.css": "/Redare/static/css/2.2305eb8f.chunk.css",
-    "static/js/2.5377b7b4.chunk.js": "/Redare/static/js/2.5377b7b4.chunk.js",
-    "static/js/2.5377b7b4.chunk.js.map": "/Redare/static/js/2.5377b7b4.chunk.js.map",
+    "static/css/2.77c40959.chunk.css": "/Redare/static/css/2.77c40959.chunk.css",
+    "static/js/2.10b014f2.chunk.js": "/Redare/static/js/2.10b014f2.chunk.js",
+    "static/js/2.10b014f2.chunk.js.map": "/Redare/static/js/2.10b014f2.chunk.js.map",
     "index.html": "/Redare/index.html",
-    "precache-manifest.b18481a6cf9b5a6cb6b7444d36c71984.js": "/Redare/precache-manifest.b18481a6cf9b5a6cb6b7444d36c71984.js",
+    "precache-manifest.23aab7ae89c2529e6bc99cff2af10241.js": "/Redare/precache-manifest.23aab7ae89c2529e6bc99cff2af10241.js",
     "service-worker.js": "/Redare/service-worker.js",
-    "static/css/2.2305eb8f.chunk.css.map": "/Redare/static/css/2.2305eb8f.chunk.css.map",
-    "static/css/main.b7a78835.chunk.css.map": "/Redare/static/css/main.b7a78835.chunk.css.map",
-    "static/js/2.5377b7b4.chunk.js.LICENSE.txt": "/Redare/static/js/2.5377b7b4.chunk.js.LICENSE.txt",
+    "static/css/2.77c40959.chunk.css.map": "/Redare/static/css/2.77c40959.chunk.css.map",
+    "static/css/main.f7dd9909.chunk.css.map": "/Redare/static/css/main.f7dd9909.chunk.css.map",
+    "static/js/2.10b014f2.chunk.js.LICENSE.txt": "/Redare/static/js/2.10b014f2.chunk.js.LICENSE.txt",
     "static/media/Danielle.svg": "/Redare/static/media/Danielle.007ca73b.svg",
     "static/media/David.svg": "/Redare/static/media/David.fcb7a54a.svg",
     "static/media/Dylan.svg": "/Redare/static/media/Dylan.0001e027.svg",
@@ -32,7 +32,7 @@
     "static/media/keyDiff2.svg": "/Redare/static/media/keyDiff2.4edc86a0.svg",
     "static/media/linkedin.svg": "/Redare/static/media/linkedin.e5d46071.svg",
     "static/media/logo.svg": "/Redare/static/media/logo.8c6dbdba.svg",
-    "static/media/map.svg": "/Redare/static/media/map.d97289a4.svg",
+    "static/media/map.svg": "/Redare/static/media/map.89921297.svg",
     "static/media/product.svg": "/Redare/static/media/product.b770961e.svg",
     "static/media/productInfoAlert.svg": "/Redare/static/media/productInfoAlert.f2ec9e2f.svg",
     "static/media/productRanking.svg": "/Redare/static/media/productRanking.be04c90c.svg",
@@ -44,9 +44,9 @@
   },
   "entrypoints": [
     "static/js/runtime-main.20195903.js",
-    "static/css/2.2305eb8f.chunk.css",
-    "static/js/2.5377b7b4.chunk.js",
-    "static/css/main.b7a78835.chunk.css",
-    "static/js/main.5d114981.chunk.js"
+    "static/css/2.77c40959.chunk.css",
+    "static/js/2.10b014f2.chunk.js",
+    "static/css/main.f7dd9909.chunk.css",
+    "static/js/main.5eaf116c.chunk.js"
   ]
 }

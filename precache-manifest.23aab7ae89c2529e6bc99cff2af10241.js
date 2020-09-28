@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "d83e2d514dd89f42d3211be0ec8b36dd",
+    "revision": "c05af98e841d1575b7869e228e94b9f0",
     "url": "/Redare/index.html"
   },
   {
-    "revision": "e38cc16e732bd22cc446",
-    "url": "/Redare/static/css/2.2305eb8f.chunk.css"
+    "revision": "e2eff4785133645c38a2",
+    "url": "/Redare/static/css/2.77c40959.chunk.css"
   },
   {
-    "revision": "12ba6552c2def75833e4",
-    "url": "/Redare/static/css/main.b7a78835.chunk.css"
+    "revision": "abe4c00816f9bca5c8c0",
+    "url": "/Redare/static/css/main.f7dd9909.chunk.css"
   },
   {
-    "revision": "e38cc16e732bd22cc446",
-    "url": "/Redare/static/js/2.5377b7b4.chunk.js"
+    "revision": "e2eff4785133645c38a2",
+    "url": "/Redare/static/js/2.10b014f2.chunk.js"
   },
   {
     "revision": "e88a3e95b5364d46e95b35ae8c0dc27d",
-    "url": "/Redare/static/js/2.5377b7b4.chunk.js.LICENSE.txt"
+    "url": "/Redare/static/js/2.10b014f2.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "12ba6552c2def75833e4",
-    "url": "/Redare/static/js/main.5d114981.chunk.js"
+    "revision": "abe4c00816f9bca5c8c0",
+    "url": "/Redare/static/js/main.5eaf116c.chunk.js"
   },
   {
     "revision": "511b9f4e88a1bf5cb425",
@@ -100,8 +100,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Redare/static/media/logo.8c6dbdba.svg"
   },
   {
-    "revision": "d97289a47e826a14ce9f0af0919e2bb3",
-    "url": "/Redare/static/media/map.d97289a4.svg"
+    "revision": "89921297406791f8b42f42c00d769704",
+    "url": "/Redare/static/media/map.89921297.svg"
   },
   {
     "revision": "b770961ed57c819e5ca5e039b52f6538",

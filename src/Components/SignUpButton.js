@@ -1,7 +1,7 @@
 import React from 'react'
 import '../CSS/App.css';
 
-const url = "http://eepurl.com/hezB_L";
+const url = "http://eepurl.com/heD_5P";
 
 function simpleForm() {
     window.open(url);

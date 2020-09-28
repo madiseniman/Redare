@@ -4,20 +4,19 @@
     height: 250px;
     left: 161px;
     top: 967px;
-
 }
 
 .Jason-text {
     position: absolute;
-    width: 143px;
-    height: 42px;
+    width: 250px;
+    height: 40px;
     left: 161px;
     top: 1231px;
 
     font-family: Work Sans, serif;
     font-style: normal;
     font-weight: normal;
-    font-size: 18px;
+    font-size: 17px;
     line-height: 21px;
     letter-spacing: -0.015em;
     color: #000000;
@@ -41,7 +40,7 @@
     font-family: Work Sans, serif;
     font-style: normal;
     font-weight: normal;
-    font-size: 18px;
+    font-size: 17px;
     line-height: 21px;
     letter-spacing: -0.015em;
     color: #000000;
@@ -66,7 +65,7 @@
     font-family: Work Sans, serif;
     font-style: normal;
     font-weight: normal;
-    font-size: 18px;
+    font-size: 17px;
     line-height: 21px;
     letter-spacing: -0.015em;
     color: #000000;
@@ -82,7 +81,7 @@
 
 .Zoey-text {
     position: absolute;
-    width: 187px;
+    width: 250px;
     height: 42px;
     left: 1028px;
     top: 1231px;
@@ -90,7 +89,7 @@
     font-family: Work Sans, serif;
     font-style: normal;
     font-weight: normal;
-    font-size: 18px;
+    font-size: 17px;
     line-height: 21px;
     letter-spacing: -0.015em;
     color: #000000;
@@ -106,7 +105,7 @@
 
 .Dylan-text {
     position: absolute;
-    width: 162px;
+    width: 250px;
     height: 42px;
     left: 161px;
     top: 1582px;
@@ -114,7 +113,7 @@
     font-family: Work Sans, serif;
     font-style: normal;
     font-weight: normal;
-    font-size: 18px;
+    font-size: 17px;
     line-height: 21px;
     letter-spacing: -0.015em;
     color: #000000;
@@ -130,7 +129,7 @@
 
 .Danielle-text {
     position: absolute;
-    width: 140px;
+    width: 250px;
     height: 42px;
     left: 448px;
     top: 1582px;
@@ -138,7 +137,7 @@
     font-family: Work Sans, serif;
     font-style: normal;
     font-weight: normal;
-    font-size: 18px;
+    font-size: 17px;
     line-height: 21px;
     letter-spacing: -0.015em;
     color: #000000;
@@ -155,15 +154,15 @@
 
 .Madisen-text {
     position: absolute;
-    width: 154px;
+    width: 250px;
     height: 42px;
     left: 738px;
     top: 1582px;
 
-    font-family: Work Sans serif;
+    font-family: Work Sans, serif;
     font-style: normal;
     font-weight: normal;
-    font-size: 18px;
+    font-size: 17px;
     line-height: 21px;
     letter-spacing: -0.015em;
     color: #000000;
@@ -187,7 +186,7 @@
     font-family: Work Sans, serif;
     font-style: normal;
     font-weight: normal;
-    font-size: 18px;
+    font-size: 17px;
     line-height: 21px;
     letter-spacing: -0.015em;
     color: #000000;

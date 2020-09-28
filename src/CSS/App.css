@@ -1,6 +1,7 @@
-#root{
-    zoom:92.5%;
+#root {
+    zoom: 92.5%;
 }
+
 .app {
     width: 1440px;
 }
@@ -141,12 +142,51 @@
     top: 40px;
 }
 
+.sign-up-text {
+    position: absolute;
+    width: 421px;
+    height: 60px;
+    left: 161px;
+    top: 1722px;
+
+    font-family: Work Sans, serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 26px;
+    line-height: 30px;
+    letter-spacing: -0.015em;
+    color: #003366;
+}
+
+.sign-up-button {
+    position: absolute;
+    width: 431px;
+    height: 69px;
+    left: 151px;
+    top: 1792px;
+
+    background: #003366;
+    border-radius: 40px;
+    cursor: pointer;
+}
+
+.sign-up-button-text {
+    font-family: Work Sans, serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 27px;
+    line-height: 45px;
+    text-align: center;
+    letter-spacing: -0.015em;
+    color: #FFFFFF;
+}
+
 .meet-us {
     position: absolute;
-    width: 1500px;
+    width: 120px;
     height: 30px;
-    left: 195px;
-    top: 1862px;
+    left: 161px;
+    top: 1908px;
 
     font-family: Work Sans, serif;
     font-style: normal;
@@ -159,12 +199,13 @@
 
 .email-button {
     position: absolute;
-    width: 348px;
+    width: 431px;
     height: 69px;
-    left: 161px;
-    top: 1902px;
+    left: 151px;
+    top: 1948px;
     background: #003366;
     border-radius: 40px;
+    cursor: pointer;
 }
 
 .email-button-text {
@@ -176,4 +217,3 @@
     letter-spacing: -0.015em;
     color: #FFFFFF;
 }
-

@@ -3,12 +3,12 @@ import logo from './Assets/logo.svg';
 import twitter from './Assets/FooterIcons/twitter.svg';
 import linkedin from './Assets/FooterIcons/linkedin.svg';
 import email from './Assets/FooterIcons/email.svg';
-import Carousel from './carousel';
-import Team from './team';
-import TeamMap from './teamMap';
-import MailButton from './MailButton';
+import Carousel from './Components/Carousel';
+import Team from './Components/Team';
+import TeamMap from './Components/TeamMap';
+import MailButton from './Components/EmailButton';
+import SignUpButton from './Components/SignUpButton';
 import './CSS/App.css';
-import Mailto from "react-protected-mailto/dist/obfuscate";
 
 function App() {
 
@@ -41,13 +41,19 @@ function App() {
             </div>
             <Team/>
             <TeamMap/>
+            <text className="sign-up-text">Make an impact! <br/> What supermarkets need Redare?</text>
+            <SignUpButton/>
             <text className="meet-us">Meet Us</text>
             <MailButton/>
             <footer className="app-footer">
                 <text className="footer-text">© 2020, Redare AB</text>
                 <div className="footer-icons">
-                    <a href="https://twitter.com/RedareTeam" target="_blank"><img src={twitter} className="footer-twitter" alt="twitter"/></a>
-                    <a href="https://www.linkedin.com/company/redare-ab/" target="_blank"><img src={linkedin} className="footer-linkedin" alt="linkedin"/></a>
+                    <a href="https://twitter.com/RedareTeam" target="_blank"><img src={twitter}
+                                                                                  className="footer-twitter"
+                                                                                  alt="twitter"/></a>
+                    <a href="https://www.linkedin.com/company/redare-ab/" target="_blank"><img src={linkedin}
+                                                                                               className="footer-linkedin"
+                                                                                               alt="linkedin"/></a>
                     <a href="mailto:hello@redareapp.com"><img src={email} className="footer-email" alt="email"/></a>
                 </div>
             </footer>

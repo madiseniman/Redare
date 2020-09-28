@@ -1,6 +1,6 @@
 import React from "react";
-import './CSS/teamMap.css';
-import Map from './Assets/Team/Team Map/map.svg';
+import '../CSS/teamMap.css';
+import Map from '../Assets/Team/TeamMap/map.svg';
 
 export default () => (
     <teamMap>

@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/Redare/static/css/main.775e123a.chunk.css",
-    "main.js": "/Redare/static/js/main.a1f083ff.chunk.js",
-    "main.js.map": "/Redare/static/js/main.a1f083ff.chunk.js.map",
+    "main.js": "/Redare/static/js/main.a22a4a06.chunk.js",
+    "main.js.map": "/Redare/static/js/main.a22a4a06.chunk.js.map",
     "runtime-main.js": "/Redare/static/js/runtime-main.20195903.js",
     "runtime-main.js.map": "/Redare/static/js/runtime-main.20195903.js.map",
     "static/css/2.77c40959.chunk.css": "/Redare/static/css/2.77c40959.chunk.css",
     "static/js/2.10b014f2.chunk.js": "/Redare/static/js/2.10b014f2.chunk.js",
     "static/js/2.10b014f2.chunk.js.map": "/Redare/static/js/2.10b014f2.chunk.js.map",
     "index.html": "/Redare/index.html",
-    "precache-manifest.fbe49287e8f70519ebf1f30dd61078c4.js": "/Redare/precache-manifest.fbe49287e8f70519ebf1f30dd61078c4.js",
+    "precache-manifest.ee6048c684e0d34694b8bca826e0827a.js": "/Redare/precache-manifest.ee6048c684e0d34694b8bca826e0827a.js",
     "service-worker.js": "/Redare/service-worker.js",
     "static/css/2.77c40959.chunk.css.map": "/Redare/static/css/2.77c40959.chunk.css.map",
     "static/css/main.775e123a.chunk.css.map": "/Redare/static/css/main.775e123a.chunk.css.map",
@@ -47,6 +47,6 @@
     "static/css/2.77c40959.chunk.css",
     "static/js/2.10b014f2.chunk.js",
     "static/css/main.775e123a.chunk.css",
-    "static/js/main.a1f083ff.chunk.js"
+    "static/js/main.a22a4a06.chunk.js"
   ]
 }

@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "7813871b6d6ea419502fc53e8ead67cb",
+    "revision": "e2ce91a508c3362f7d95101abc0a6661",
     "url": "/Redare/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Redare/static/css/2.77c40959.chunk.css"
   },
   {
-    "revision": "709c817a3c905f246615",
+    "revision": "08c537a0c2f3c87254ba",
     "url": "/Redare/static/css/main.775e123a.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Redare/static/js/2.10b014f2.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "709c817a3c905f246615",
-    "url": "/Redare/static/js/main.a1f083ff.chunk.js"
+    "revision": "08c537a0c2f3c87254ba",
+    "url": "/Redare/static/js/main.a22a4a06.chunk.js"
   },
   {
     "revision": "511b9f4e88a1bf5cb425",

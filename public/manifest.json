@@ -1,20 +1,20 @@
 {
   "short_name": "Redare",
-  "name": "Create React App Sample",
+  "name": "Redare App",
   "icons": [
     {
       "src": "favicon.ico",
-      "sizes": "64x64 32x32 24x24 16x16",
+      "sizes": "64x64 48x48 32x32 24x24 16x16",
       "type": "image/x-icon"
     },
     {
-      "src": "logo192.png",
-      "type": "image/png",
+      "src": "redareImage.svg",
+      "type": "image/svg",
       "sizes": "192x192"
     },
     {
-      "src": "logo512.png",
-      "type": "image/png",
+      "src": "redareImage.svg",
+      "type": "image/svg",
       "sizes": "512x512"
     }
   ],

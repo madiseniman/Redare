@@ -1,11 +1,20 @@
-#root {
-    zoom: 92.5%;
+html, body {
+    max-width: 100vw;
+    overflow-x: hidden;
 }
 
 .app {
-    width: 1440px;
+    width: 100vw;
 }
 
+.app-header {
+    position: absolute;
+    margin: 0 auto;
+    width: inherit;
+    height: 521px;
+    background: #003366;
+    font-size: calc(10px + 2vmin);
+}
 .app-logo {
     position: absolute;
     width: 568px;
@@ -15,16 +24,8 @@
     pointer-events: none;
 }
 
-.app-header {
-    position: absolute;
-    width: inherit;
-    height: 521px;
-    background: #003366;
-    font-size: calc(10px + 2vmin);
-}
-
 .tag-line {
-    position: absolute;
+    position: relative;
     width: 490px;
     height: 270px;
     left: 170px;
@@ -40,7 +41,7 @@
     color: #FFFFFF;
 }
 
-.header-body {
+.header-text-body {
     position: absolute;
     width: 586px;
     height: 82px;
@@ -58,15 +59,27 @@
 
 .app-body {
     background: #E5E5E5;
-    width: inherit;
+    width: 100vw;
 }
 
-.body-header {
+#body-text-content{
+    width: 100vw;
+    grid-column-start: 2;
+    grid-column-end: five;
     position: absolute;
-    width: 1127px;
-    height: 210px;
-    left: 161px;
-    top: 681px;
+    margin: 0 auto;
+}
+
+.col {
+    position: static;
+    margin: 0 auto;
+}
+.body-title {
+    position: relative;
+    text-align: center;
+    height: auto;
+    margin: 0 auto;
+    top: 690px;
 
     font-family: Work Sans, sans-serif;
     font-style: normal;
@@ -78,11 +91,11 @@
 }
 
 .body-text {
-    position: absolute;
-    width: 1127px;
-    height: 210px;
-    left: 161px;
-    top: 781px;
+    position: relative;
+    width: 800px;
+    height: auto;
+    margin: 0 auto;
+    top: 725px;
 
     font-family: Work Sans, sans-serif;
     font-style: normal;
@@ -95,7 +108,7 @@
 
 .app-footer {
     position: absolute;
-    width: inherit;
+    width: 100vw;
     height: 125px;
     left: 0px;
     top: 2076px;
@@ -217,3 +230,4 @@
     letter-spacing: -0.015em;
     color: #FFFFFF;
 }
+

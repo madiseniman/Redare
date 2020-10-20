@@ -17,86 +17,101 @@
     color: #000000;
 }
 
+#team-text{
+    position: absolute;
+    top: 930px;
+    left: 161px;
+    width: 100%;
+    height: 50px;
+    font-family: Work Sans, serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 21px;
+    letter-spacing: -0.015em;
+    color: #000000;
+}
+
 #jason-image{
     left: 161px;
-    top: 967px;
+    top: 987px;
 }
 
 #jason-text {
     left: 161px;
-    top: 1231px;
+    top: 1251px;
 }
 
 #david-image {
     left: 444px;
-    top: 967px;
+    top: 987px;
 }
 
 #david-text {
     left: 448px;
-    top: 1231px;
+    top: 1251px;
 }
 
 
 #steven-image {
     left: 737px;
-    top: 967px;
+    top: 987px;
 }
 
 #steven-text {
     left: 737px;
-    top: 1231px;
+    top: 1251px;
 }
 
 #zoey-image {
     left: 1028px;
-    top: 967px;
+    top: 987px;
 }
 
 #zoey-text {
     left: 1028px;
-    top: 1231px;
+    top: 1251px;
 }
 
 #dylan-image {
     left: 161px;
-    top: 1318px;
+    top: 1338px;
 }
 
 #dylan-text {
     left: 161px;
-    top: 1582px;
+    top: 1602px;
 }
 
 #danielle-image {
     left: 448px;
-    top: 1318px;
+    top: 1338px;
 }
 
 #danielle-text {
     left: 448px;
-    top: 1582px;
+    top: 1602px;
 }
 
 
 #madisen-image {
     left: 738px;
-    top: 1318px;
+    top: 1338px;
 }
 
 #madisen-text {
     left: 738px;
-    top: 1582px;
+    top: 1602px;
 }
 
 #omar-image {
     left: 1028px;
-    top: 1318px;
+    top: 1338px;
 }
 
 #omar-text {
     left: 1028px;
-    top: 1582px;
+    top: 1602px;
 }
 
 

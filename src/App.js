@@ -15,29 +15,49 @@ function App() {
     return (
         <div className="app">
             <header className="app-header">
-                <img src={logo} className="app-logo" alt="logo"/>
-                <p className="tag-line">Everyday purchasing made sustainable.</p>
-                <p className="header-body">
-                    Using human experts, product data, and AI, our <br/>
-                    tech enables retailers to empower and guide <br/>
-                    their consumers towards making more sustainable choices.
-                </p>
+                <div id="header-content">
+                    <p className="tag-line">Everyday purchasing made sustainable.</p>
+                    <div>
+                        <img src={logo} className="app-logo" alt="logo"/>
+                        <p className="header-text-body">
+                            Using human experts, product data, and AI, our <br/>
+                            tech enables retailers to empower and guide <br/>
+                            their consumers towards making more sustainable choices.
+                        </p>
+                    </div>
+                </div>
             </header>
             <body className="app-body">
-            <Carousel/>
-            <div>
-                <p className="body-header">Redare’s founders are passionate that products valued and purchased by
-                    consumers and <br/>
-                    retailers for being “sustainable” should make differences at scale to people and planet.</p>
-                <p className="body-text">Given the importance of demand-side intervention, Redare has a long-term vision
-                    for using core sustainability data and its ranking <br/>
-                    engine, as well as gamification, consumer psychology and food informatics. Integrating Redare with
-                    online retail environments <br/>
-                    offers opportunities for tracking individual customers, rewards for footprint reduction,
-                    gamification of customer nudging, and <br/>
-                    education. We envision a possibilities to create engagement with consumers through retailers and
-                    directly with the Redare app <br/>
-                    once core trust and relationships are built.</p>
+            <div id="body-text-content">
+                <Carousel/>
+
+                <div className="col">
+                    <p className="body-title">
+                        {/* Redare’s founders are passionate that products valued and purchased by consumers and <br/>
+                    retailers for being “sustainable” should make differences at scale to people and planet.*/}
+                        Accelerating our transition to the circular economy by increasing demand for sustainable
+                        products
+                    </p>
+                </div>
+                <div className="col">
+                    <p className="body-text">
+                        {/* Given the importance of demand-side intervention, Redare has a long-term
+                    vision for using core sustainability data and its ranking <br/>
+                    engine, as well as gamification, consumer psychology and food informatics.
+                    Integrating Redare with online retail environments <br/>
+                    offers opportunities for tracking individual customers, rewards for
+                    footprint reduction, gamification of customer nudging, and <br/>
+                    education. We envision a possibilities to create engagement with consumers
+                    through retailers and directly with the Redare app <br/>
+                    once core trust and relationships are built.*/}
+                        Redare’s founders are passionate that products valued and purchased by consumers
+                        and retailers for being “sustainable” should make differences at scale
+                        to people and planet. Given the importance of demand-side intervention, integrating
+                        Redare with online retail environments offers opportunities for tracking
+                        individual customers, rewards for footprint reduction, gamification of customer nudging,
+                        and education.
+                    </p>
+                </div>
             </div>
             <Team/>
             <TeamMap/>
@@ -63,3 +83,4 @@ function App() {
 }
 
 export default App;
+
